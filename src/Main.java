@@ -1,7 +1,8 @@
 import java.util.Scanner;
+import static java.lang.Thread.sleep;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -21,6 +22,12 @@ public class Main {
         int age = (r1 * 70 + r2 * 21 + r3 * 15) % 105;
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
 
-
+        System.out.println("Now I will prove to you that I can count to any number you want. " +
+                "\nPlease, enter a number:");
+        int num = scanner.nextInt();
+        for (int i = 1; i <= num; i++) {
+            System.out.print(i + "... ");
+            sleep(1000,1);
+        }
     }
 }
