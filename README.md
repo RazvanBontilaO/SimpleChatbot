@@ -29,4 +29,8 @@ It follows a **Hyperskill-style structure**, broken down into multiple stages th
 ---
 
 ## 🏗️ Project Structure
-
+SimpleChatBot/
+├── src/
+│ └── SimpleBot.java
+├── README.md
+└── .gitignore
