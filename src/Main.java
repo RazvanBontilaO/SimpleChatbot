@@ -54,5 +54,7 @@ public class Main {
         }
         System.out.println();
         System.out.println("Congratulations, " + name + "! Have a nice day!");
+
+        scanner.close();
     }
 }
