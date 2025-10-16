@@ -52,5 +52,7 @@ public class Main {
                 System.out.println("Incorrect answer. Please, try again.");
             }
         }
+        System.out.println();
+        System.out.println("Congratulations, " + name + "! Have a nice day!");
     }
 }
